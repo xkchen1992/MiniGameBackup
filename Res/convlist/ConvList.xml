@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="GBK" standalone="yes" ?>
+
+
+<ConvList ResEncoding="UTF-8" IsAllowLackList="true">
+
+  <MetalibFile		    File="xml\RockProtocol.SS.tdr" />
+  <ExcelFilesPath	    Path="xls" />
+  <BinFilesPath		    Path="bin" />
+  <EntryMapFilesPath	Path="xml" />
+  
+  <FileHead CreateTime="0" MetaHash="1" />
+
+  <ConvTree Name="资源表">
+	
+ 
+ <CommNode Name="MiniGame" >	
+	<ResNode Name="通用事件表"
+                     Meta="TGeneralEventTable"
+                     EntryMapFile="event.xml"
+                     BinFile="general_event.bin"
+                     BinStyles="0,1"
+                     Sort="Asc"
+                     ExcelFile="event.xlsx"
+                     IncludeSheet="General"
+            /> 
+	<ResNode Name="单KEY事件表"
+                     Meta="TOneKeyEventTable"
+                     EntryMapFile="event.xml"
+                     BinFile="one_key_event.bin"
+                     BinStyles="0,1"
+                     Sort="Asc"
+                     ExcelFile="event.xlsx"
+                     IncludeSheet="OneKey"
+            />	
+	<ResNode Name="双KEY事件表"
+                     Meta="TDoubleKeyEventTable"
+                     EntryMapFile="event.xml"
+                     BinFile="double_key_event.bin"
+                     BinStyles="0,1"
+                     Sort="Asc"
+                     ExcelFile="event.xlsx"
+                     IncludeSheet="DoubleKey"
+            />	
+ </CommNode>
+ 
+   </ConvTree>
+
+</ConvList>

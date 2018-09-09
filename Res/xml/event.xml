@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="GBK" standalone="yes" ?>
+
+<metalib tagsetversion="1" name="ResTable" version="1">
+
+  <struct name="TGeneralEventTable" version="1" sortkey="ID" desc="通用事件参数">
+    <entry name="ID"			type="int" 				cname="ID" 					desc="事件ID"/>
+    <entry name="Type"			type="int" 				cname="Type"				desc="事件类型"/>
+	<entry name="Money"			type="int" 				cname="Money"				desc="Money结果"/>
+	<entry name="Reputation"	type="int" 				cname="Reputation"			desc="Reputation结果"/>
+  </struct>
+  
+  <struct name="TOneKeyEventTable" version="1" sortkey="ID" desc="单KEY事件参数">
+    <entry name="ID"			type="int" 				cname="ID" 					desc="事件ID"/>
+    <entry name="Type"			type="int" 				cname="Type"				desc="事件类型"/>
+    <entry name="Key"			type="int" 				cname="Key"					desc="事件关键人物"/>
+	<entry name="WithkeyMoney"			type="int" 				cname="WithkeyMoney"				desc="有Key的Money结果"/>
+	<entry name="WithkeyReputation"		type="int" 				cname="WithkeyReputation"			desc="有Key的Reputation结果"/>
+	<entry name="WithoutkeyMoney"		type="int" 				cname="WithoutkeyMoney"				desc="无Key的Money结果"/>
+	<entry name="WithoutkeyReputation"	type="int" 				cname="WithoutkeyReputation"		desc="无Key的Reputation结果"/>
+  </struct>
+  
+  <struct name="TDoubleKeyEventTable" version="1" sortkey="ID" desc="双KEY事件参数">
+    <entry name="ID"			type="int" 				cname="ID" 					desc="事件ID"/>
+    <entry name="Type"			type="int" 				cname="Type"				desc="事件类型"/>
+    <entry name="Key1"			type="int" 				cname="Key1"					desc="事件关键人物1"/>
+	<entry name="Key2"			type="int" 				cname="Key2"					desc="事件关键人物2"/>
+	<entry name="WithkeyMoney"			type="int" 				cname="WithkeyMoney"				desc="有Key的Money结果"/>
+	<entry name="WithkeyReputation"		type="int" 				cname="WithkeyReputation"			desc="有Key的Reputation结果"/>
+	<entry name="WithoutkeyMoney"		type="int" 				cname="WithoutkeyMoney"				desc="无Key的Money结果"/>
+	<entry name="WithoutkeyReputation"	type="int" 				cname="WithoutkeyReputation"		desc="无Key的Reputation结果"/>
+  </struct>
+  
+</metalib>
