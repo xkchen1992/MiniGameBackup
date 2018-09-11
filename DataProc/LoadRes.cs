@@ -183,7 +183,7 @@ public class LoadRes : MonoBehaviour {
     void Start () {
 
         LoadXml();
-
+/*
         PrintLevelCount();
         PrintLevelStoryID(1);
         PrintLevelStoryID(2);
@@ -194,7 +194,8 @@ public class LoadRes : MonoBehaviour {
         PrintNextStoryID(1, 2, 1003);
         PrintNextStoryID(1, 3, 1004);
         //        print(GetEventUIPath(1004));
-        //        print(GetEventText(1004));
+        //        print(GetEventText(1004)); 
+*/
     }
 	
 	// Update is called once per frame
